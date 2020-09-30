@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import LifeNote from './components/home';
+import LifeNote from './components/login';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <LifeNote />
-  </React.StrictMode>,
+  // </React.StrictMode>
+  ,
   document.getElementById('root')
 );
