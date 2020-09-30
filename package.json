@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/KeelHsu/lifenote#readme",
   "dependencies": {
+    "antd": "^4.6.6",
     "draft-js": "^0.11.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
