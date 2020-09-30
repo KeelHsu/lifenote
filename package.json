@@ -2,6 +2,7 @@
   "name": "lifenote",
   "version": "1.0.0",
   "description": "life note",
+  "main": "index",
   "private": true,
   "scripts": {
     "dev": "npx webpack-dev-server",
