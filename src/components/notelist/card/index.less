@@ -1,0 +1,65 @@
+.card {
+    width: 90%;
+    height: 120px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+
+    .head {
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+
+        .title {
+            width: 75%;
+            height: 100%;
+            float: left;
+            font-size: 14px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .time {
+            float: right;
+            color: #82818f;
+        }
+
+        &::after {
+            width: 5px;
+            height: 20px;
+            content: "";
+            background-color: blue;
+            border-radius: 2px;
+            position: absolute;
+            right: -10px;
+            top: 10px;
+        }
+    }
+
+    .brief {
+        color: #93919e;
+        line-height: 1.8;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        overflow: hidden;
+        /*设置弹性盒模型*/
+        -webkit-line-clamp: 3;
+        /*文本占的行数,如果要设置2行加...则设置为2*/
+        -webkit-box-orient: vertical;
+        /*子代元素垂直显示*/
+    }
+}
+
+.shadow {
+    box-shadow: 0 0 5px #ccc;
+
+    &:hover {
+        box-shadow: 5px 5px 5px #aaa;
+    }
+}
