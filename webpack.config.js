@@ -37,7 +37,12 @@ module.exports = {
               },
             ],
           ],
-          plugins: [["import", { libraryName: "antd", style: "css" }]],
+          plugins: [
+            [
+              "import",
+              { libraryName: "antd", libraryDirectory: "es", style: "css" },
+            ],
+          ],
         },
       },
       {
